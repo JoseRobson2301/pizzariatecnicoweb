@@ -92,3 +92,28 @@ body {
 ::-webkit-scrollbar {
     display: none;
 }
+
+
+@media (max-width: 500px) {
+    a {
+        display: flex;
+        text-align: -webkit-center;
+    }
+
+    .cabecalhoLogoeTagA {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .imgIlustrativo {
+        position: absolute;
+        width: 350px;
+        left: 20px;
+        top: 450px;
+    }
+
+    .navbar {
+        position: absolute;
+        top: 140px;
+    }
+}
