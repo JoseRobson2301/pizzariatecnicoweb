@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+        font-family: Arial, sans-serif;
+        background-color: #fa1b36;
+    }
+
+    #carrinho {
+      width: 400px;
+      padding: 20px;
+      background-color: #fac600;
+      border-radius: 5px;
+      margin: 20px auto;
+      position: absolute;
+      top: 50px;
+      left: 50px;
+      transform: translate(90%, 60%);
+      border-radius: 20px;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    .item {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 10px
+    }
+
+    .item span {
+      font-weight: bold;
+    }
+
+    .total {
+      margin-top: 20px;
+      text-align: right;
+    }
+
+    .item button {
+        border: none;
+        width: 7pc;
+        height: 1.5pc;
+        cursor: pointer;
+        border-radius: 7px;
+        background-color:  rgb(255, 145, 0);
+        transition: .2s all ease-in-out;
+    }
+
+    .item button:hover {
+        background-color: #fa1b36;
+    }
+    </style>
+
+</head>
+<body>
+    <div id="carrinho">
+        <h1>Carrinho de Empada</h1>
+        <ul>
+          <li class="item">
+            <span>Empada Margherita</span>
+            <span>R$ 25,00</span>
+            <button>Comprar</button>
+          </li>
+          <li class="item">
+            <span>Empada Calabresa</span>
+            <span>R$ 30,00</span>
+            <button>Comprar</button>
+            </li>
+          <li class="item">
+            <span>Empada De Queijo</span>
+            <span>R$ 35,00</span>
+            <button>Comprar</button>
+          </li>
+        </ul>
+      </div>
+</body>
+</html>
