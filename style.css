@@ -64,9 +64,10 @@ body {
 }
 
 .navbar {
-    width: 200px;
-    top: 25%;
-    left: 6%;
+    width: 210px;
+    height: 22pc;
+    top: 30%;
+    left: 10%;
     border-radius: 10px;
     position: absolute;
     background-color: #9c0d1e;
@@ -78,10 +79,10 @@ body {
 
 .navbar a {
     text-decoration: none;
-    font-size: 16px;
-    color: white;
+    font-size: 18px;
+    color: #e9cbd1;
     display: block;
-    transition: .3s all ease;
+    transition: .3s all cubic-bezier(0, 0.77, 0.13, 1.93);
 }
 
 .navbar a:hover {
