@@ -82,7 +82,7 @@ body {
     font-size: 18px;
     color: #e9cbd1;
     display: block;
-    transition: .3s all cubic-bezier(0, 0.77, 0.13, 1.93);
+    transition: .3s all cubic-bezier(0.54, 0.14, 0.56, 0.98);
 }
 
 .navbar a:hover {
