@@ -139,6 +139,6 @@ body {
     }
 
     .cabecalhoLogoeTagA a:hover {
-        transition: .3s all cubic-bezier(0.44, 0.87, 0.02, 1.43);
+        transition: .3s all cubic-bezier(0.43, 1.52, 0.77, 1.19);
     }
 }
