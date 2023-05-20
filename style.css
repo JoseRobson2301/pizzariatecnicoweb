@@ -195,6 +195,10 @@ tr:hover {
 }
 
 
+::selection {
+    background-color: #9c0d1e;
+}
+
 ::-webkit-scrollbar {
     display: none;
 }
@@ -250,22 +254,22 @@ tr:hover {
     .opctionFood {
         position: absolute;
         width: 280px;
-        top: 25%;
-        left: 50px;
+        top: 20%;
+        left: -20px;
     }
 
     .opctionFood02 {
         position: absolute;
         width: 280px;
-        top: 32%;
-        left: 55px;
+        top: 28%;
+        left: -20px;
     }
 
     .opctionFood03 {
         position: absolute;
         width: 280px;
-        top: 45%;
-        left: 65px;
+        top: 40%;
+        left: -20px;
     }
 
     .opctionFood04 {
