@@ -254,28 +254,28 @@ tr:hover {
     .opctionFood {
         position: absolute;
         width: 280px;
-        top: 20%;
-        left: -20px;
+        top: 32%;
+        left: 70px;
     }
 
     .opctionFood02 {
         position: absolute;
         width: 280px;
-        top: 28%;
-        left: -20px;
+        top: 42%;
+        left: 90px;
     }
 
     .opctionFood03 {
         position: absolute;
         width: 280px;
-        top: 40%;
-        left: -20px;
+        top: 55%;
+        left: 90px;
     }
 
     .opctionFood04 {
         position: absolute;
         width: 280px;
-        top: 3%;
-        left: -20px;
+        top: 60%;
+        left: 90px;
     }
 }
