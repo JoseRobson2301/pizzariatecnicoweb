@@ -75,6 +75,7 @@ body {
     text-align: center;
     font-family: 'Roboto Slab', serif;
     display: none;
+    cursor: pointer;
   }
 
 .navbar a {
@@ -89,6 +90,110 @@ body {
     background-color: #d64040;
     color: rgba(0, 0, 0, 0.514);
 }
+
+.opctionFood {
+    height: 340px;
+    width: 600px;
+    display: none;
+    position: absolute;
+    color: rgb(253, 253, 253);
+    text-align: center;
+    line-height: 1.5pc;
+    align-items: center;
+    left: 26%;
+    top: 32%;
+    border-radius: 15px;
+    opacity: 90%;
+    background-color: transparent;
+    flex-direction: column-reverse;
+    cursor: pointer;
+}
+
+.opctionFood02 {
+    height: 340px;
+    width: 600px;
+    display: none;
+    position: absolute;
+    color: rgb(253, 253, 253);
+    text-align: center;
+    line-height: 1.5pc;
+    align-items: center;
+    left: 26%;
+    top: 32%;
+    border-radius: 15px;
+    opacity: 90%;
+    background-color: transparent;
+    flex-direction: column-reverse;
+    cursor: pointer;
+}
+
+.opctionFood03 {
+    height: 340px;
+    width: 600px;
+    display: none;
+    position: absolute;
+    color: rgb(253, 253, 253);
+    text-align: center;
+    line-height: 1.5pc;
+    align-items: center;
+    left: 26%;
+    top: 32%;
+    border-radius: 15px;
+    opacity: 90%;
+    background-color: transparent;
+    flex-direction: column-reverse;
+    cursor: pointer;
+}
+
+.opctionFood04 {
+    height: 340px;
+    width: 600px;
+    display: none;
+    position: absolute;
+    color: rgb(253, 253, 253);
+    text-align: center;
+    line-height: 1.5pc;
+    align-items: center;
+    left: 26%;
+    top: 32%;
+    border-radius: 15px;
+    opacity: 90%;
+    background-color: transparent;
+    flex-direction: column-reverse;
+    cursor: pointer;
+}
+
+
+table {
+    border-collapse: collapse;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    margin: 20px 0;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    background-color: #fac600;
+}
+
+th, td {
+    text-align: left;
+    padding: 12px 15px;
+    border-radius: 2px;
+}
+
+th {
+    background-color: #ffc107;
+    color: #fffefe;
+    text-transform: uppercase;
+}
+
+tr:nth-child(even) {
+    background-color: #fa1b36;
+}
+
+tr:hover {
+    background-color: #ffa8a8;
+}
+
 
 ::-webkit-scrollbar {
     display: none;
@@ -109,7 +214,7 @@ body {
     .cabecalhoLogoeTagA a {
         font-size: 9.9px;
         padding-left: 2px;
-        padding-right: 2px;
+        padding-right: 1px;
         padding-left: 8px;
     }
 
@@ -123,7 +228,7 @@ body {
     .navbar {
         position: absolute;
         top: 115px;
-        left: 90px;
+        left: 40px;
         line-height: 80px;
         opacity: 80%;
     }
@@ -140,5 +245,33 @@ body {
 
     .cabecalhoLogoeTagA a:hover {
         transition: .3s all cubic-bezier(0.43, 1.52, 0.77, 1.19);
+    }
+
+    .opctionFood {
+        position: absolute;
+        width: 280px;
+        top: 20%;
+        left: -20px;
+    }
+
+    .opctionFood02 {
+        position: absolute;
+        width: 280px;
+        top: 28%;
+        left: -20px;
+    }
+
+    .opctionFood03 {
+        position: absolute;
+        width: 280px;
+        top: 40%;
+        left: -20px;
+    }
+
+    .opctionFood04 {
+        position: absolute;
+        width: 280px;
+        top: 3%;
+        left: -20px;
     }
 }
