@@ -258,8 +258,8 @@ tr:hover {
 
     .cabecalhoLogoeTagA a {
         font-size: 9.9px;
-        padding-left: 2px;
-        padding-right: 1px;
+        padding-left: 0px;
+        padding-right: 0px;
         padding-left: 8px;
     }
 
@@ -282,7 +282,15 @@ tr:hover {
         margin: 1px;
         padding: 1px;
     }
+  
+    .cabecalhoLogoeTagA a:nth-child(1) {
+      display: none;
+    }
 
+    .cabecalhoLogoeTagA a:nth-child(2) {
+      display: none;
+    }
+  
     .cabecalhoLogoeTagA a:nth-child(5) {
         width: 80px;
         height: 40px;
