@@ -163,6 +163,47 @@ body {
     cursor: pointer;
 }
 
+.menu {
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 1pc;
+    padding: 20px;
+    position: fixed;
+    background-color: #fac600;
+    border-radius: 5px;
+  }
+
+  h1 {
+    text-align: center;
+    color: #333333;
+  }
+
+  h2 {
+    margin-top: 30px;
+    color: #666666;
+  }
+
+  .category {
+    margin-bottom: 10px;
+  }
+
+  .category-title {
+    color: #333333;
+  }
+
+  .item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+  }
+
+  .item-name {
+    color: #333333;
+  }
+
+  .item-price {
+    color: #666666;
+  }
 
 table {
     border-collapse: collapse;
@@ -278,4 +319,18 @@ tr:hover {
         top: 60%;
         left: 90px;
     }
+
+    .menu {
+    width: 250px;
+    height: 410px;
+    margin: 0 auto;
+    margin-top: 1pc;
+    padding: 10px;
+    position: absolute;
+    left: 20%;
+    background-color: #fac600;
+    border-radius: 5px;
+    line-height: 15px;
+    opacity: 90%;
+  }
 }
