@@ -251,16 +251,17 @@ tr:hover {
     }
 
     .cabecalhoLogoeTagA {
-        margin-left: 0;
-        margin-right: 0;
-        justify-content: center;
+        margin-left: 10px;
+        margin-right: 10px;
+        display: flex;
+        justify-content: space-evenly;
+      
     }
 
     .cabecalhoLogoeTagA a {
-        font-size: 9.9px;
+        font-size: 9px;
         padding-left: 0px;
-        padding-right: 0px;
-        padding-left: 8px;
+        padding-right: 20px;
     }
 
     .imgIlustrativo {
