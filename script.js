@@ -45,4 +45,4 @@ clickEmpadaBtn.addEventListener('click', function() {
 function fecharAnuncio() {
     var anuncio = document.getElementById("menu");
     anuncio.style.display = "none";
-}
+};

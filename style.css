@@ -194,6 +194,74 @@ tr:hover {
     background-color: #ffa8a8;
 }
 
+.opctionFood {
+    display: none;
+}
+
+.opctionFood02 {
+    display: none;
+}
+
+.opctionFood03 {
+    display: none;
+}
+
+.opctionFood04 {
+    display: none;
+}
+
+.secPizzaFood {
+    display: grid;
+    position: absolute;
+    top: 30%;
+    left: 27%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.cardpizzaFood {
+    background-color: rgba(240, 248, 255, 0.89);
+    width: 250px;
+    height: 250px;
+    margin-left: 25px;
+    display: flex;
+    flex-direction: column;
+    opacity: 95%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    font-family: 'Courier New', Courier, monospace;
+    transition: .3s all ease-in-out;
+}
+
+.cardpizzaFood:hover {
+    transform: scale(1.05);
+    filter: br(50px)
+}
+
+.cardpizzaFood button {
+    font-family: 'Courier New', Courier, monospace;
+    color: aliceblue;
+    border: none;
+    width: 10pc;
+    height: 2pc;
+    background-color: #9c0d1e;
+    border-radius: 5px;
+    transition: .5s ease;
+}
+
+.btnPizzaFood {
+    display: flex;
+    justify-content: center;
+}
+
+.cardpizzaFood button:hover {
+    transform: scale(1.05);
+}
+
+.cardpizzaFood img {
+    height: 130px;
+    border-radius: 10px;
+}
 
 ::selection {
     background-color: #9c0d1e;
