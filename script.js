@@ -1,5 +1,6 @@
 function toggleDisplay(element) {
-    if (element.style.display === 'none') {
+    var style = window.getComputedStyle(element);
+    if (style.display === 'none') {
         element.style.display = 'block';
     } else {
         element.style.display = 'none';
@@ -40,3 +41,10 @@ var opctionFood04 = document.querySelector('.opctionFood04');
 clickEmpadaBtn.addEventListener('click', function() {
     toggleDisplay(opctionFood04);
 });
+
+
+
+function fecharAnuncio() {
+    var anuncio = document.getElementById("menu");
+    anuncio.style.display = "none";
+}
