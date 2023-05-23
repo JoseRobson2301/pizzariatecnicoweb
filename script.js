@@ -42,8 +42,6 @@ clickEmpadaBtn.addEventListener('click', function() {
     toggleDisplay(opctionFood04);
 });
 
-
-
 function fecharAnuncio() {
     var anuncio = document.getElementById("menu");
     anuncio.style.display = "none";
