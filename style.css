@@ -42,7 +42,7 @@ body {
     color: #878081;
 }
 .cabecalhoLogoeTagA a:nth-child(3):hover {
-    transform: scale(1.1);
+    transform: translateX(10px);
 }
 
 .cabecalhoLogoeTagA a:hover {
