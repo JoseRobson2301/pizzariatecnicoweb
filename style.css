@@ -163,47 +163,62 @@ body {
     cursor: pointer;
 }
 
-.menu {
+#menu {
     width: 500px;
     margin: 0 auto;
     margin-top: 1pc;
-    padding: 20px;
+    padding: 10px;
     position: fixed;
+    line-height: 15px;
     background-color: #fac600;
     border-radius: 5px;
-  }
+}
 
-  h1 {
+#btnAnuncio {
+    position: absolute;
+    left: 30vh;
+    top: 65vh;
+    border-radius: 5px;
+    border: 1px solid #fac600;
+    font-family: 'Courier New', Courier, monospace;
+    color: aliceblue;
+    cursor: pointer;
+    padding: 0.5pc;
+    background-color: #fa1b36;
+    cursor: alias;
+}
+
+h1 {
     text-align: center;
     color: #333333;
-  }
+}
 
-  h2 {
+h2 {
     margin-top: 30px;
     color: #666666;
-  }
+}
 
-  .category {
+.category {
     margin-bottom: 10px;
-  }
+}
 
-  .category-title {
+.category-title {
     color: #333333;
-  }
+}
 
-  .item {
+.item {
     display: flex;
     justify-content: space-between;
     margin-bottom: 5px;
-  }
+}
 
-  .item-name {
+.item-name {
     color: #333333;
-  }
+}
 
-  .item-price {
+.item-price {
     color: #666666;
-  }
+}
 
 table {
     border-collapse: collapse;
