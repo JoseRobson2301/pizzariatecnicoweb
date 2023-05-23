@@ -33,7 +33,6 @@ body {
     border-radius: 5px;
     align-items: center;
     justify-content: center;
-    padding-left: 0px;
     height: 3pc;
     width: 8pc;
     color: #fa1b36;
@@ -90,78 +89,6 @@ body {
 .navbar a:hover {
     background-color: #d64040;
     color: rgba(0, 0, 0, 0.514);
-}
-
-.opctionFood {
-    height: 340px;
-    width: 600px;
-    display: none;
-    position: absolute;
-    color: rgb(253, 253, 253);
-    text-align: center;
-    line-height: 1.5pc;
-    align-items: center;
-    left: 26%;
-    top: 32%;
-    border-radius: 15px;
-    opacity: 90%;
-    background-color: transparent;
-    flex-direction: column-reverse;
-    cursor: pointer;
-}
-
-.opctionFood02 {
-    height: 340px;
-    width: 600px;
-    display: none;
-    position: absolute;
-    color: rgb(253, 253, 253);
-    text-align: center;
-    line-height: 1.5pc;
-    align-items: center;
-    left: 26%;
-    top: 32%;
-    border-radius: 15px;
-    opacity: 90%;
-    background-color: transparent;
-    flex-direction: column-reverse;
-    cursor: pointer;
-}
-
-.opctionFood03 {
-    height: 340px;
-    width: 600px;
-    display: none;
-    position: absolute;
-    color: rgb(253, 253, 253);
-    text-align: center;
-    line-height: 1.5pc;
-    align-items: center;
-    left: 26%;
-    top: 32%;
-    border-radius: 15px;
-    opacity: 90%;
-    background-color: transparent;
-    flex-direction: column-reverse;
-    cursor: pointer;
-}
-
-.opctionFood04 {
-    height: 340px;
-    width: 600px;
-    display: none;
-    position: absolute;
-    color: rgb(253, 253, 253);
-    text-align: center;
-    line-height: 1.5pc;
-    align-items: center;
-    left: 26%;
-    top: 32%;
-    border-radius: 15px;
-    opacity: 90%;
-    background-color: transparent;
-    flex-direction: column-reverse;
-    cursor: pointer;
 }
 
 #menu {
