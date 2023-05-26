@@ -40,7 +40,7 @@ swal({
 // esse site abaixo é de pesquisa //
 
 swal({
-    text: 'Search for a movie. e.g. "La La Land".',
+    text: 'O que você gostaria de pesquisar"bee movie".',
     content: "input",
     button: {
       text: "Search!",
