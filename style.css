@@ -39,8 +39,9 @@ body {
 }
 
 .cabecalhoLogoeTagA a:nth-child(5):hover {
-    color: #ff0026;
+    color: #fa1b36;
 }
+
 .cabecalhoLogoeTagA a:nth-child(3):hover {
     transform: scale(1.1);
 }
@@ -327,6 +328,10 @@ tr:hover {
         text-align: center;
         justify-content: center;
         display: flex;
+    }
+
+    .cabecalhoLogoeTagA a:nth-child(5):hover {
+        color: #fa1b36;
     }
 
     .cabecalhoLogoeTagA a:hover {
