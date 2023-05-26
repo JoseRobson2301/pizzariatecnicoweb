@@ -62,7 +62,6 @@ body {
 
 .imgIlustrativo:hover {
     transform: scale(1.1);
-    transition: all ease-in-out;
 }
 
 .navbar {
