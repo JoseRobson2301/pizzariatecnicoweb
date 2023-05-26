@@ -59,14 +59,14 @@ swal({
     const movie = json.results[0];
    
     if (!movie) {
-      return swal("No movie was found!");
+      return swal("Infelizmente não encontramos no nosso banco de dados(SQL)!");
     }
    
     const name = movie.trackName;
     const imageURL = movie.artworkUrl100;
    
     swal({
-      title: "Top result:",
+      title: "Resultado:",
       text: name,
       icon: imageURL,
     });
