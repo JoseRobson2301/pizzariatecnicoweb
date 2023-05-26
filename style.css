@@ -39,7 +39,7 @@ body {
 }
 
 .cabecalhoLogoeTagA a:nth-child(5):hover {
-    color: #878081;
+    color: #ff0026;
 }
 .cabecalhoLogoeTagA a:nth-child(3):hover {
     transform: scale(1.1);
