@@ -380,4 +380,20 @@ tr:hover {
         left: 28%;
         top: 98%;
     }
+
+    .secPizzaFood {
+        display: block;
+    }
+
+    .cardpizzaFood {
+        width: 13em;
+        height: 13em;
+        display: flex;
+        justify-content:space-evenly;
+    }
+
+    .cardpizzaFood img {
+        width: 9em;
+        height: 7em;
+    }
 }
